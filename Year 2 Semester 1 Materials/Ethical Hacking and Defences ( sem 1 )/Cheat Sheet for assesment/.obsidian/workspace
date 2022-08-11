@@ -1,0 +1,140 @@
+{
+  "main": {
+    "id": "c306219a1e2f1009",
+    "type": "split",
+    "children": [
+      {
+        "id": "b31963c7a1b0daf0",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Extra_Notes_sqlmap__Snort_Flags.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1778105c09dc463a",
+    "type": "split",
+    "children": [
+      {
+        "id": "839ccfcf2a6e6f44",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f39f2eee4459229f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "ae3f66f7c8ad07a5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "057577e306f67caf",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "62951e033e8eeb3f",
+    "type": "split",
+    "children": [
+      {
+        "id": "bd8571bb71a06f3c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "214636590079ccd7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Extra_Notes_sqlmap__Snort_Flags.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6918551fd4eecf2f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Extra_Notes_sqlmap__Snort_Flags.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f7c5117b623b538e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "3e0b3984aad414e4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Extra_Notes_sqlmap__Snort_Flags.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "b31963c7a1b0daf0",
+  "lastOpenFiles": [
+    "Topic_7_-_Intrusion_Detection_System.md",
+    "Topic_6_-_Web_Application_Security.md",
+    "Topic_5_-_Firewall.md",
+    "Extra_Notes_sqlmap__Snort_Flags.md",
+    "Practical_2_Cheatsheet.md",
+    "Pasted image 20220705133928.png.md"
+  ]
+}

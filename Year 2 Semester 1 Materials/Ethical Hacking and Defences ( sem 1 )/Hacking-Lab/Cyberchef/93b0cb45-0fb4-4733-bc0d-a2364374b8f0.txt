@@ -1,0 +1,84 @@
+Received: from Wapiti.compass-security.com (10.4.10.10) by
+ Wapiti.compass-security.com (10.4.10.10) with Microsoft SMTP Server (TLS) id
+ 15.0.1473.3 via Mailbox Transport; Mon, 17 Feb 2020 09:01:06 +0100
+Received: from Wapiti.compass-security.com (10.4.10.10) by
+ Wapiti.compass-security.com (10.4.10.10) with Microsoft SMTP Server (TLS) id
+ 15.0.1473.3; Mon, 17 Feb 2020 09:01:06 +0100
+Received: from mx1.compass-security.com (193.135.215.41) by
+ Wapiti.compass-security.com (10.4.10.10) with Microsoft SMTP Server (TLS) id
+ 15.0.1473.3 via Frontend Transport; Mon, 17 Feb 2020 09:01:06 +0100
+Received: from mail-wr1-f43.google.com (mail-wr1-f43.google.com [209.85.221.43])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits))
+	(No client certificate requested)
+	by mx1.compass-security.com (Postfix) with ESMTPS id 20CF0AB
+	for <ivan.buetler@compass-security.com>; Mon, 17 Feb 2020 09:01:05 +0100 (CET)
+DKIM-Filter: OpenDKIM Filter v2.11.0 mx1.compass-security.com 20CF0AB
+Authentication-Results: mx1.compass-security.com;
+	dkim=pass (2048-bit key) header.d=gmail.com header.i=@gmail.com header.b="muU2eob/"
+Received: by mail-wr1-f43.google.com with SMTP id w15so18418027wru.4
+        for <ivan.buetler@compass-security.com>; Mon, 17 Feb 2020 00:01:05 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=rqeuHAUKkRSJAzGay2P6Es3P1IkGwr/CntjZpv0iiHY=;
+        b=muU2eob/sn+bCAzH3E5PQAKweV8H3i2+elchuCL7l49aj5NbN0vXO1996o389bPF7t
+         cS7VziX0ZGJaM+VExbMzMAyT41ojggdw3XOpIB5XjIT/5rfIH420yHOjvtEsENpu68/m
+         +CPcEjGinkKNOHQVHhUniR2Qx6sgTFMZpBcwj6oO1nxPpZGzbqD6lEGCRCq80uLvPhoO
+         cTHO4rhXm0FuSNoE5dZRvrc58MfoMcJ+29r/vBlOJu/3RpabCFKbrIpSx4NN3cDeZJCq
+         cCzLbg+NK0M2+Rq0E6a9ZD8OWW9UdHkZt/LzO1PxqZY/tZDt+uUkCJygN6eSiVnD1s7e
+         6Ekg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=rqeuHAUKkRSJAzGay2P6Es3P1IkGwr/CntjZpv0iiHY=;
+        b=alYOAZUcPhI3xbOt8sKMgEQ1upqgS32EyBVfRGg3bb5PH+0PafzvHKnhFcuFrb10e2
+         WDTVIG/Avl4aEZu5C120mQp1tyMp5S8Dk81Rq3Aiu4vifnbCTFAAIU6OjswwV3uHx0lw
+         TOd1IABC95PahDc8fe0niid6TZB38t6CPQzDvtbfE1JTUR6wUAaSkoHX7KnQdv6zkdPP
+         hNKO8Q10NYF3vgb3whOo39ojCoE+KSt9oQiU+48oOwTYwMg+s1sdOTtV4QyDpiYuyuEP
+         jaXRk7A4CPSaubDCybC1wHNRea0MOL0EvGv0zuO4yaaECeTZWJRKX5VPnIiY4BpRLIx/
+         5PTg==
+X-Gm-Message-State: APjAAAWYuhHvzzK0H8QwfI/RalSYnurHINsgMfoLlosw48d2znwmOnlZ
+	BuSXvZ9M/mritKsDz+ojQTxgnnjVPl2NL5/7MK0CkgDg
+X-Google-Smtp-Source: APXvYqzMSWfeTSlFGkvSaJ3o4qFpFrs8GLLoiX9hh5v7QQnBxtfyOhLYQV5CtuaEtcpp3QjeDfMwRw1/SYwRpsUNRLg=
+X-Received: by 2002:a5d:4cc9:: with SMTP id c9mr20328626wrt.70.1581926464523;
+ Mon, 17 Feb 2020 00:01:04 -0800 (PST)
+MIME-Version: 1.0
+From: =?UTF-8?B?SXZhbiBCw7x0bGVy?= <ivan.buetler@gmail.com>
+Date: Mon, 17 Feb 2020 09:00:53 +0100
+Message-ID: <CAGyu3mCtMveEv49-UcYWgTOzpjxKD__B=MD9Q9FCqiuoGPNJEA@mail.gmail.com>
+Subject: from ivan.buetler@gmail.com to ivan.buetler@compass-security.com
+To: Ivan Buetler <ivan.buetler@compass-security.com>
+Content-Type: multipart/alternative; boundary="000000000000fa8ee0059ec0f42a"
+X-Rspamd-Queue-Id: 20CF0AB
+X-Spamd-Result: default: False [-0.02 / 15.00];
+	 FREEMAIL_FROM(0.00)[gmail.com];
+	 R_SPF_ALLOW(-0.20)[+ip4:209.85.128.0/17];
+	 TO_DN_ALL(0.00)[];
+	 DKIM_TRACE(0.00)[gmail.com:+];
+	 DMARC_POLICY_ALLOW(-0.50)[gmail.com,none];
+	 FROM_EQ_ENVFROM(0.00)[];
+	 MIME_TRACE(0.00)[0:+,1:+,2:~];
+	 R_MIXED_CHARSET(0.56)[subject];
+	 FREEMAIL_ENVFROM(0.00)[gmail.com];
+	 ASN(0.00)[asn:15169, ipnet:209.85.128.0/17, country:US];
+	 TAGGED_FROM(0.00)[];
+	 R_PARTS_DIFFER(0.06)[55.6%];
+	 ARC_NA(0.00)[];
+	 R_DKIM_ALLOW(-0.20)[gmail.com:s=20161025];
+	 FROM_HAS_DN(0.00)[];
+	 DWL_DNSWL_NONE(0.00)[gmail.com:dkim];
+	 TO_MATCH_ENVRCPT_ALL(0.00)[];
+	 MIME_GOOD(-0.10)[multipart/alternative,text/plain];
+	 PREVIOUSLY_DELIVERED(0.00)[ivan.buetler@compass-security.com];
+	 RCPT_COUNT_ONE(0.00)[1];
+	 RCVD_IN_DNSWL_NONE(0.00)[209.85.221.43:from];
+	 NEURAL_HAM(-0.00)[-1.047];
+	 RWL_MAILSPIKE_POSSIBLE(0.00)[209.85.221.43:from];
+	 HFILTER_URL_ONLY(0.37)[0.16666666666667];
+	 RCVD_COUNT_TWO(0.00)[2];
+	 RCVD_TLS_ALL(0.00)[]
+X-Rspamd-Server: ncjonmx01.compass-security.com
+Return-Path: ivan.buetler@gmail.com
+X-MS-Exchange-Organization-Network-Message-Id: a7fe6aec-6542-4081-4a98-08d7b37f8a84
+X-MS-Exchange-Organization-AuthSource: Wapiti.compass-security.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
